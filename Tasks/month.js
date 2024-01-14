@@ -1,4 +1,4 @@
-// Step 9: Return -1 if no match is found.
+// Step 10: Export the getMonthNumber function using module.exports.
 
 const Months = [
   'jan',
@@ -20,12 +20,4 @@ const getMonthNumber = (abbreviation) => {
   const numberOfMonths = Months.length;
 
   for (let i = 0; i < numberOfMonths; i++) {
-    if (lowercaseAbbreviation.startsWith(Months[i])) {
-      return i + 1;
-    }
-  }
-
-  return -1;
-};
-
-module.exports = getMonthNumber;
+    if (lowercaseAbb
