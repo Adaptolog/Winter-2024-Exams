@@ -1,6 +1,6 @@
 // Find key by value
 
-//Step 4: Added strict equality check: The condition object[name] !== value was checking for inequality using loose equality (!=). We changed it to strict equality (===) to ensure both the value and type are matched.
+//Step 5: Fixed typeof checks: The typeof checks were not correctly implemented. We added quotes around the string literals and fixed the conditions to check the typeof name and object variables.
 
 const find = (object, ...rest) => {
   const value = rest.pop();
