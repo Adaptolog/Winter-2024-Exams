@@ -1,10 +1,9 @@
 // Find key by value
 
-//Step 2: Fixed rest.pop() argument: The argument passed to rest.pop() was incorrect. We removed the argument to pop the last element from the rest array.
+//Step 3: Removed empty array: There was an empty array [] in the code, which served no purpose. We removed it to improve code readability.
 
 const find = (object, ...rest) => {
   const value = rest.pop();
-  const name = [];
   for (const name in object) {
     if (object[name] !== value) {
     } else {
