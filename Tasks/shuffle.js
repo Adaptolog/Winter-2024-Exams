@@ -1,11 +1,8 @@
 // Shuffle an array
 
-//Step 3: The unnecessary block {} after the sort function call has been removed. It doesn't serve any purpose and can be safely removed.
+//Step 4: The return statement has been moved outside the block to ensure that the shuffled array is always returned.
 
-const shuffle = (arr) => {
-  arr.sort(() => Math.random() - 0.5);
-  return arr;
-};
+const shuffle = (arr) => arr.sort(() => Math.random() - 0.5);
 
 module.exports = shuffle;
 
