@@ -1,6 +1,6 @@
 // Generate random password
 
-// Step 5: Added proper indentation and empty lines for better code readability.
+// Step 6: Removed unnecessary comments and unused code.
 
 const generatePassword = (alphabet, length) => {
   const max = alphabet.length;
@@ -8,13 +8,14 @@ const generatePassword = (alphabet, length) => {
 
   for (let i = 0; i < length; i++) {
     const index = Math.floor(Math.random() * max);
-    password = password + alphabet[index];
+    password += alphabet[index];
   }
 
   return password;
 };
 
 module.exports = generatePassword;
+
 
 
 
