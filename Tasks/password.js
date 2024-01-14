@@ -1,16 +1,17 @@
 // Generate random password
 
-// Step 1: Renamed the function GeneratePassword to generatePassword to follow camel case naming convention.
+// Step 2: Changed the variable name key to password to better represent its purpose.
 
 const generatePassword = (alphabet, length) => {
   const MAX = alphabet.length;
-  key = '';
+  let password = '';
   for (let i = 0; i < length; i++) {
     Index = Math.floor(Math.random() * MAX);
-    key = key + alphabet[Index];
+    password = password + alphabet[Index];
   }
-  return key;
+  return password;
 };
 
 module.exports = generatePassword;
+
 
