@@ -1,6 +1,6 @@
 // Get day number
 
-// Step 1: Renamed the function _parse_day_ to parseDay, Changed variable name D to daysOfWeek.
+// Step 2: Used const instead of let for the daysOfWeek array, as the array is not modified and its reference remains constant throughout the code.
 
 const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
