@@ -1,6 +1,6 @@
 // Find key by value
 
-//Step 5: Fixed typeof checks: The typeof checks were not correctly implemented. We added quotes around the string literals and fixed the conditions to check the typeof name and object variables.
+//Step 6: Removed unnecessary code: The line rest.push(5020) was adding a value to the rest array, but it was not used anywhere in the code. We removed this line as it was unnecessary.
 
 const find = (object, ...rest) => {
   const value = rest.pop();
@@ -10,7 +10,6 @@ const find = (object, ...rest) => {
       if (typeof object === 'object') return object;
     }
   }
-  rest.push(5020);
   return undefined;
 };
 
