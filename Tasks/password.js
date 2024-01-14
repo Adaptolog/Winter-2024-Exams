@@ -1,6 +1,6 @@
 // Generate random password
 
-// Step 8: Added a space between the for keyword and the opening parenthesis.
+// Step 9: Used const instead of let for the index variable inside the for loop.
 
 const generatePassword = (alphabet, length) => {
   const max = alphabet.length;
@@ -15,6 +15,7 @@ const generatePassword = (alphabet, length) => {
 };
 
 module.exports = generatePassword;
+
 
 
 
