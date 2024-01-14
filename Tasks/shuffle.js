@@ -1,6 +1,6 @@
 // Shuffle an array
 
-//Step 2: Instead of using the spread operator to get the array from the input arguments, I can directly destructure the array parameter List to get the arr variable.
+//Step 3: The unnecessary block {} after the sort function call has been removed. It doesn't serve any purpose and can be safely removed.
 
 const shuffle = (arr) => {
   arr.sort(() => Math.random() - 0.5);
@@ -8,3 +8,4 @@ const shuffle = (arr) => {
 };
 
 module.exports = shuffle;
+
