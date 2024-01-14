@@ -1,4 +1,4 @@
-// Step 1: Declare the Months array using const.
+// Step 2: Rename the function to getMonthNumber.
 
 const Months = [
   'jan',
