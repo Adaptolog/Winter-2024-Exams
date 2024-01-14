@@ -1,6 +1,6 @@
 // Get one random element from an array
 
-//Step 3: Created a new variable randomElement to store the randomly selected element from the array using the randomIndex. This improves code readability and avoids accessing the array twice.
+//Step 4: Returned the randomElement instead of the arr variable. This ensures that the function returns the desired random element from the array.
 
 const getRandomElement = (arr) => {
   const randomIndex = Math.floor(Math.random() * arr.length);
