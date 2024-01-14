@@ -1,4 +1,4 @@
-// Step 10: Export the getMonthNumber function using module.exports.
+// Step 11: month.js reseted to previes version.
 
 const Months = [
   'jan',
@@ -20,4 +20,12 @@ const getMonthNumber = (abbreviation) => {
   const numberOfMonths = Months.length;
 
   for (let i = 0; i < numberOfMonths; i++) {
-    if (lowercaseAbb
+    if (lowercaseAbbreviation.startsWith(Months[i])) {
+      return i + 1;
+    }
+  }
+
+  return -1;
+};
+
+module.exports = getMonthNumber;
