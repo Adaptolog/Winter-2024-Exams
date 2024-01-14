@@ -1,11 +1,10 @@
 // Shuffle an array
 
-let Shuffle = (...List) => {
-  const [arr] = List;
+//Step 1: The function name Shuffle has been changed to shuffle.
+
+const shuffle = (arr) => {
   arr.sort(() => Math.random() - 0.5);
-  {
-    return arr;
-  }
+  return arr;
 };
 
-module.exports = Shuffle;
+module.exports = shuffle;
