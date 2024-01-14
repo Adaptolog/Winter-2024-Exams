@@ -1,6 +1,6 @@
 // Generate random password
 
-// Step 6: Removed unnecessary comments and unused code.
+// Step 7: Used the += operator to concatenate characters to the password variable.
 
 const generatePassword = (alphabet, length) => {
   const max = alphabet.length;
@@ -15,6 +15,7 @@ const generatePassword = (alphabet, length) => {
 };
 
 module.exports = generatePassword;
+
 
 
 
