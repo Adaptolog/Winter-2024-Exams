@@ -1,4 +1,4 @@
-// Step 6: Use a for loop instead of forEach for performance.
+// Step 7: Use startsWith directly on the lowercase abbreviation.
 
 const Months = [
   'jan',
