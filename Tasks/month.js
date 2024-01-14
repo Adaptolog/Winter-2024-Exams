@@ -1,4 +1,4 @@
-// Step 8: Return the month number directly instead of adding 1 to the index.
+// Step 9: Return -1 if no match is found.
 
 const Months = [
   'jan',
