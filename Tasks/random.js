@@ -1,6 +1,6 @@
 // Generate random integer value in given range
 
-//Step 2: Used const instead of let for the function declaration to indicate that the function reference will not be reassigned.
+//Step 3: Added a space before and after the arrow function (=>) for better readability.
 
 const getRandomInt = (min, max) => {
   if (max === undefined) {
