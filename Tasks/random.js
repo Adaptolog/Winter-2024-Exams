@@ -1,6 +1,8 @@
 // Generate random integer value in given range
 
-Random = (min, max) => {
+//Step 1: Renamed the function from Random to getRandomInt to follow the camel case naming convention and provide a more descriptive name.
+
+const getRandomInt = (min, max) => {
   if (max === undefined) {
     max = min;
     return Math.floor(Math.random() * (max + 1));
@@ -9,4 +11,4 @@ Random = (min, max) => {
   }
 };
 
-module.exports = Random;
+module.exports = getRandomInt;
