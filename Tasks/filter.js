@@ -1,15 +1,17 @@
 // Filter array by type name
 
-Filter = (T, t) => {
+//Step 1: Renaming the function and parameters to comply with the Camel Case naming convention and to provide a more descriptive name.
+
+const filterArrayByType = (array, typeName) => {
   remove = [];
-  for (C of T) {
-    x = T.indexOf(C);
-    if (typeof T[x] !== t) {
+  for (C of array) {
+    x = array.indexOf(C);
+    if (typeof array[x] !== typeName) {
       remove.unshift(x);
     }
   }
-  for (x of remove) T.splice(x, 1);
-  return T;
+  for (x of remove) array.splice(x, 1);
+  return array;
 };
 
-module.exports = Filter;
+module.exports = filterArrayByType;
