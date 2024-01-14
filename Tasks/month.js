@@ -1,4 +1,4 @@
-// Step 5: Use const for the numberOfMonths variable.
+// Step 6: Use a for loop instead of forEach for performance.
 
 const Months = [
   'jan',
