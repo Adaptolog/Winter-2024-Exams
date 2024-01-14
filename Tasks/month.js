@@ -1,4 +1,4 @@
-// Step 3: Use const for the abbreviation parameter.
+// Step 4: Convert abbreviation to lowercase outside the loop.
 
 const Months = [
   'jan',
