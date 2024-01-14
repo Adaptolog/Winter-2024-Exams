@@ -1,12 +1,11 @@
 // Find key by value
 
-//Step 3: Removed empty array: There was an empty array [] in the code, which served no purpose. We removed it to improve code readability.
+//Step 4: Added strict equality check: The condition object[name] !== value was checking for inequality using loose equality (!=). We changed it to strict equality (===) to ensure both the value and type are matched.
 
 const find = (object, ...rest) => {
   const value = rest.pop();
   for (const name in object) {
-    if (object[name] !== value) {
-    } else {
+    if (object[name] === value) {
       if (typeof name === 'string') return name;
       if (typeof object === 'object') return object;
     }
