@@ -1,6 +1,6 @@
 // Find key by value
 
-//Step 1: Added const keyword: The variables value and name are now declared using the const keyword to ensure they are not reassigned accidentally.
+//Step 2: Fixed rest.pop() argument: The argument passed to rest.pop() was incorrect. We removed the argument to pop the last element from the rest array.
 
 const find = (object, ...rest) => {
   const value = rest.pop();
@@ -8,8 +8,8 @@ const find = (object, ...rest) => {
   for (const name in object) {
     if (object[name] !== value) {
     } else {
-      if (typeof name) return name;
-      if (typeof object) return object;
+      if (typeof name === 'string') return name;
+      if (typeof object === 'object') return object;
     }
   }
   rest.push(5020);
