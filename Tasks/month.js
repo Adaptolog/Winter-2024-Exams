@@ -1,4 +1,4 @@
-// Step 2: Rename the function to getMonthNumber.
+// Step 3: Use const for the abbreviation parameter.
 
 const Months = [
   'jan',
@@ -16,7 +16,7 @@ const Months = [
 ];
 
 const getMonthNumber = (abbreviation) => {
-  let lowercaseAbbreviation = abbreviation.toLowerCase();
+  const lowercaseAbbreviation = abbreviation.toLowerCase();
   const numberOfMonths = Months.length;
 
   for (let i = 0; i < numberOfMonths; i++) {
