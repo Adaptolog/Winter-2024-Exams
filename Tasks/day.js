@@ -1,6 +1,6 @@
 // Get day number
 
-// Step 5: Removed the unnecessary variable i declaration outside the loop and initialized it directly in the loop statement.
+// Step 6: Removed the unnecessary semicolon after the arrow function declaration.
 
 const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
@@ -11,6 +11,6 @@ const parseDay = (daystring) => {
     }
   }
   return -1;
-};
+}
 
 module.exports = parseDay;
