@@ -1,6 +1,6 @@
 // Generate random integer value in given range
 
-//Step 4: Added a semicolon at the end of the function declaration to ensure code consistency and prevent potential issues.
+//Step 5: Removed the unnecessary global assignment of Random and directly exported the getRandomInt function using module.exports.
 
 const getRandomInt = (min, max) => {
   if (max === undefined) {
