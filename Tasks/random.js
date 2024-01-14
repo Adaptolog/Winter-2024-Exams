@@ -1,6 +1,6 @@
 // Generate random integer value in given range
 
-//Step 3: Added a space before and after the arrow function (=>) for better readability.
+//Step 4: Added a semicolon at the end of the function declaration to ensure code consistency and prevent potential issues.
 
 const getRandomInt = (min, max) => {
   if (max === undefined) {
