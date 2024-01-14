@@ -1,4 +1,4 @@
-// Step 4: Convert abbreviation to lowercase outside the loop.
+// Step 5: Use const for the numberOfMonths variable.
 
 const Months = [
   'jan',
