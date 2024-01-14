@@ -1,11 +1,11 @@
 // Get one random element from an array
 
-//Step 2: Created a new variable randomIndex to store the randomly generated index value. This improves code readability and avoids repeating the same calculation multiple times.
+//Step 3: Created a new variable randomElement to store the randomly selected element from the array using the randomIndex. This improves code readability and avoids accessing the array twice.
 
 const getRandomElement = (arr) => {
   const randomIndex = Math.floor(Math.random() * arr.length);
-  arr = arr[randomIndex];
-  return arr;
+  const randomElement = arr[randomIndex];
+  return randomElement;
 };
 
 module.exports = getRandomElement;
