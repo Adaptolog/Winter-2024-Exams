@@ -1,6 +1,6 @@
 // Generate random password
 
-// Step 9: Used const instead of let for the index variable inside the for loop.
+// Step 10: Changed the variable name key to password in the return statement.
 
 const generatePassword = (alphabet, length) => {
   const max = alphabet.length;
@@ -15,6 +15,7 @@ const generatePassword = (alphabet, length) => {
 };
 
 module.exports = generatePassword;
+
 
 
 
