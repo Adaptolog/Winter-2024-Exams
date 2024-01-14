@@ -1,6 +1,6 @@
 // Generate random integer value in given range
 
-//Step 1: Renamed the function from Random to getRandomInt to follow the camel case naming convention and provide a more descriptive name.
+//Step 2: Used const instead of let for the function declaration to indicate that the function reference will not be reassigned.
 
 const getRandomInt = (min, max) => {
   if (max === undefined) {
