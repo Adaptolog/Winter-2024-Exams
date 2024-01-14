@@ -1,6 +1,7 @@
 // Get day number
 
-// Step 3: Used const instead of let for the loop variable i, as it is not modified within the loop.
+// Step 4: Added a case-insensitive comparison by converting both the input string s and the days in the daysOfWeek array to lowercase using the toLowerCase() method. 
+// This ensures that the function can handle input strings with different casing.
 
 const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
