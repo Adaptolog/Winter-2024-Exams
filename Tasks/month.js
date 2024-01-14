@@ -1,4 +1,4 @@
-// Step 7: Use startsWith directly on the lowercase abbreviation.
+// Step 8: Return the month number directly instead of adding 1 to the index.
 
 const Months = [
   'jan',
